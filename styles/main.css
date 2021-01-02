@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    @apply h-screen;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+#__next {
+    @applay h-screen flex flex-col;
+}
